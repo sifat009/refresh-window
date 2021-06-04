@@ -1,5 +1,7 @@
 # Refresh-window
 
+![refresh-window-screenshot](images/sc.png)
+
 It will add an icon in your statusbar to refresh the window
 
 ## Features
