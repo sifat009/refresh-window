@@ -11,7 +11,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 	// Get the current active editor
 	const statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 1000);
-	statusBarItem.text = `reload $(refresh)`;
+	statusBarItem.text = `Reload $(refresh)`;
 	statusBarItem.command = 'refresh-window.refresh';
 	statusBarItem.show();
 
